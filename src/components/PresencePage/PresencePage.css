@@ -1,0 +1,76 @@
+.presence-page {
+  text-align: center;
+  padding: 50px 0;
+  background-color: #1a1a1a;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+}
+
+.presence-page h2 {
+  color: #00ff00;
+}
+.presence-page-p {
+  text-align: center;
+  color: #fff;
+  padding: 45px 92px;
+  font-size: 15px;
+}
+
+.flags {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.flag {
+  text-align: center;
+  height: 150px;
+  width: 150px;
+}
+
+.flag img {
+  width: 100%;
+  height: 45%;
+  /* border-radius: 5px; */
+}
+
+.flag p {
+  margin-top: 10px;
+  /* font-weight: bold; */
+}
+
+.carousel-indicators {
+  display: flex;
+  justify-content: center;
+  gap: 4px;
+  margin-top: -33px;
+}
+
+.carousel-indicators .dot {
+  height: 12px;
+  width: 12px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+  cursor: pointer;
+}
+
+.carousel-indicators .dot.active {
+  background-color: #717171;
+}
+
+.carousel-indicators .dot:hover {
+  background-color: #717171;
+}
+.explore-button {
+  background-color: #046241;
+  color: #fff;
+  border: none;
+  padding: 4px 15px;
+  font-size: 1em;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background-color 0.3s;
+}

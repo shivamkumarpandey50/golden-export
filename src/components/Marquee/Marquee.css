@@ -1,0 +1,37 @@
+.marquee-1-outer {
+  background-color: rgb(0, 0, 0);
+  padding: 0px 35px 0px 35px;
+  z-index: 1;
+  background: #363d43;
+  font-size: 15px;
+  height: 40px;
+  padding: 0;
+  display: grid;
+  place-items: center;
+  overflow: hidden;
+  position: relative;
+}
+
+.marquee {
+  margin: 0px 35px 0px 35px;
+  white-space: nowrap;
+  overflow: hidden;
+  box-sizing: border-box;
+  display: block;
+  animation: marquee 20s linear infinite;
+  color: #ffffff;
+  font-size: small;
+  z-index: 1;
+  top: 10px;
+  position: absolute;
+  width: 90%;
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}

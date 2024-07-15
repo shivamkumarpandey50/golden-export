@@ -1,0 +1,151 @@
+.industries-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #171b1e;
+  padding: 20px;
+  color: #fff;
+  font-weight: normal;
+  height: auto;
+}
+
+.industries-title {
+  color: #fff;
+  font-size: 12px;
+  text-align: center;
+  background-color: #046241;
+  padding: 5px 15px;
+  width: fit-content;
+  margin: 0 auto;
+  font-weight: lighter;
+}
+
+.industries-description {
+  font-size: 14px;
+  margin-bottom: 30px;
+  text-align: center;
+  max-width: 800px;
+  margin-top: 25px;
+}
+
+.industries-container2 {
+  width: 100%;
+}
+
+/* .slick-prev:before,
+.slick-next:before {
+  color: white;
+} */
+
+/* Card Styling */
+.industry-card {
+  background-color: #171b1e;
+  border-radius: 10px;
+  overflow: hidden;
+  text-align: center;
+  margin: 0 10px;
+}
+
+.industry-image-container {
+  width: 100%;
+  padding-top: 75%;
+  position: relative;
+}
+
+.industry-image {
+  /* position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  padding: 35px; */
+  /* position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  padding: 35px;
+  margin: 0px 0px 0px 25px; */
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 90%;
+  height: 122%;
+  object-fit: cover;
+  padding: 35px;
+  margin: -2px 0px -19px 20px;
+}
+
+.industry-info {
+  padding: 10px;
+  margin: 5px 108px 17px 134px ;
+}
+
+.explore {
+  border-bottom: 2px solid #fff;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 1em;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background-color 0.3s;
+}
+
+/* .explore:hover {
+  background-color: #007a30;
+} */
+
+/* Animations */
+@keyframes slideUpToDown {
+  0% {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+  50% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slideDownToUp {
+  0% {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+  50% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.industries-container1.animated {
+  animation: slideUpToDown 2s ease-out forwards;
+}
+
+.industries-container2.animated {
+  animation: slideDownToUp 2s ease-out forwards;
+}
+
+.slick-next {
+  display: none;
+}
+
+.slick-next:before {
+  content: '→';
+  display: none;
+}
+
+.slick-prev:before {
+  content: '←';
+  display: none;
+}
